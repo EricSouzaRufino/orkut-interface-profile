@@ -13,16 +13,20 @@
         <nav>
             <img src="assets/images/logo-orkut.svg" alt="">
             <ul>
-                <li>Inicio</li>
-                <li>Perfil</li>
-                <li>Comunidades</li>
-                <li>Jogos</li>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Comunidades</a></li>
+                <li><a href="#">Jogos</a></li>
             </ul>
         </nav>
 
-        <input type="search" placeholder="Pesquisar no Orkut">
+        <div class="input-header">
+            <input type="search" placeholder="Pesquisar no Orkut">
+            <img src="assets/icons/lupa.svg" alt="">
 
-        <div>
+        </div>
+
+        <div class="perfil-header">
             <section>
                 <img src="assets/images/iuricode 1.svg" alt="">
             </section>
@@ -42,19 +46,19 @@
                         <h3>Iuri Silva</h3>
                         <p>Solteiro, Brasil</p>
                 </div>
-                <div class="button-edit-perfil">
+                <div class="button-edit-perfil ">
                     <button>Editar meu perfil</button>
                 </div>
 
             </section>
             <section class="section-style-bio">
-                <article>
+                <article class="informacao-central">
                     <h2>Boa tarde, Iuri Silva</h2>
-                    <p>Programar sem cafe é igual poeta sem poesia.</p>
+                    <p class="frase-bio">Programar sem cafe é igual poeta sem poesia.</p>
                     <section class="status-style">
                         <div>
                             <p>Fãs</p>
-                            <img src="assets/icons/star.svg" alt="">85
+                            <figure class="fas"><img src="assets/icons/star.svg" alt=""><span>85</span></figure>
                         </div>
                         <div>
                             <p>Confiável</p>
@@ -72,23 +76,42 @@
                             <img src="assets/icons/heart.svg" alt="">
                             <img src="assets/icons/heart.svg" alt="">
                         </div>
-
                     </section>
+
+                    <article class="info-styles">
+                        <h5>Relaciomento: <span>Solteiro</span></h5>
+                        <h5>Aniversário: <span>21 de julho</span></h5>
+                        <h5>Idade: <span>22</span></h5>
+                        <h5>Interesses no Orkut: <span>Solteiro</span></h5>
+                        <h5>Quem sou eu: <span>Programador</span></h5>
+                        <h5>Filhos: <span>Não</span></h5>
+                        <h5>Sexo: <span>Masculino</span></h5>
+                        <h5>Fumo: <span>Não</span></h5>
+                        <h5>Bebo: <span>Depende do dia</span></h5>
+                        <h5>Moro: <span>Guarantã</span></h5>
+                        <h5>País: <span>Brasil</span></h5>
+                        <h5>Cidade Natal: <span>São Paulo</span></h5>
+                        <h5 class="borda">Música: <span class="">Trap</span><span class="">Rap</span><span class="">Indie</span><span class="view">Ver todos</span></h5>
+                        <h5 id="ultline" class="borda">Filmes: <span class="">A rede social</span><span class="">Meu amigo totoro</span><span class="view">Ver todos</span></h5>
+
+
+                    </article>
+ 
                 </article>
 
             </section>
 
             <section class="section-style-social">
 
-                <section class="amigos-style">
-                    <div class="div-text">
-                        <h3> Amigos (248) </h3>
+                <section class="social-style">
+                    <div class="div-text1">
+                        <h3>Amigos (248)</h3>
                         <p>Ver todos</p>
                     </div>
-                    <div class="div-amigos">
+                    <div class="div-icons">
                         <figure>
                             <img src="/assets/images/fernando.svg" alt="">
-                            <p>Fernado</p>
+                            <p>Fernando</p>
                         </figure>
 
                         <figure>
@@ -126,22 +149,48 @@
                     </div>
                 </section>
 
-                <section class="comunidade-style">
-                    <div class="div-comunidade">
-                        <h3>Comunidades (42) </h3>
+                <section class="social-style">
+                    <div class="div-text2">
+                        <h3>Comunidades (42)</h3>
                         <p>Ver todos</p>
                     </div>
-                    <div>
+                    <div class="div-icons">
                         <figure>
-                            <img src="/assets/images/fernando.svg" alt="">
-                            <img src="/assets/images/ana.svg" alt="">
-                            <img src="/assets/images/carlos.svg" alt="">
-                            <img src="/assets/images/vitor.svg" alt="">
-                            <img src="/assets/images/matheus.svg" alt="">
-                            <img src="/assets/images/ramos.svg" alt="">
-                            <img src="/assets/images/ejii.svg" alt="">
-                            <img src="/assets/images/julia.svg" alt="">
-                            <img src="/assets/images/carol.svg" alt="">
+                            <img src="/assets/images/carros.svg" alt="">
+                            <p>Carros</p>
+                        </figure>
+
+                        <figure>
+                            <img src="/assets/images/wood.svg" alt="">
+                            <p>Desenhos</p>
+                        </figure>
+                        <figure>
+                            <img src="/assets/images/crazy.svg" alt="">
+                            <p>Crazy</p>
+                        </figure>
+                        <figure>
+                            <img src="/assets/images/fofos.svg" alt="">
+                            <p>Fofos</p>
+                        </figure>
+                        <figure>
+                            <img src="/assets/images/animes.svg" alt="">
+                            <p>Animes</p>
+                        </figure>
+                        <figure>
+                            <img src="/assets/images/leitura.svg" alt="">
+                            <p>Leitura</p>
+                        </figure>
+                        <figure>
+                            <img src="/assets/images/meuovo.svg" alt="">
+                            <p>Meu ovo</p>
+                        </figure>
+                        <figure>
+                            <img src="/assets/images/mybooks.svg" alt="">
+                            <p>My books</p>
+                        </figure>
+                        <figure>
+                            <img src="/assets/images/cafe.svg" alt="">
+                            <p>Cafeeee</p>
                         </figure>
                     </div>
                 </section>
